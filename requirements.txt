@@ -1,0 +1,15 @@
+newspaper3k
+beautifulsoup4
+requests
+transformers
+sentence-transformers
+torch
+scikit-learn
+umap-learn
+apache-airflow
+mlflow
+pandas
+numpy
+markdown2
+lxml_html_clean
+twilio

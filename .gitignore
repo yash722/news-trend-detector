@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info
+
+# Environment
+.env
+*.env
+secret.py
+*.db
+
+# Data and logs
+data/
+logs/
+mlruns/
+models/
+*.log
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
