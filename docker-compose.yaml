@@ -18,7 +18,7 @@ services:
     depends_on:
       - postgres
     entrypoint: >
-      bash -c "airflow db init && airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com"
+      bash -c "airflow db init && airflow users create --username {your_username} --password {your_password} --firstname {Your First Name} --lastname {Your Last Name} --role Admin --email {your_username@example.com}"
     environment:
       - AIRFLOW__CORE__EXECUTOR=${AIRFLOW__CORE__EXECUTOR}
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=${AIRFLOW__CORE__SQL_ALCHEMY_CONN}
