@@ -1,6 +1,6 @@
 # News Trend Detector And Summarizer
 
-A fully automated pipeline to scrape, embed, cluster, summarize, and visualize news — with WhatsApp notifications.
+A fully automated pipeline to scrape, embed, cluster, summarize, and display summaries with WhatsApp notifications.
 
 ## Features
 - Scrape articles daily
