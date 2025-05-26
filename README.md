@@ -5,7 +5,7 @@ A fully automated pipeline to scrape, embed, cluster, summarize, and display sum
 ## Features
 - Scrape articles daily
 - Embed with MiniLM and cluster with UMAP + HDBSCAN/KMeans
-- Summarize each cluster using DistilBART
+- Summarize each cluster using Facebook BART CNN
 - Streamlit dashboard with auto-refresh
 - WhatsApp notifications via Twilio
 
